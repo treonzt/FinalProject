@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace FinalProject_Group1.Models
 {
+    // @author: Ishani Saxena
     public class TeamInfo
     {
         public int Id { get; set; }
