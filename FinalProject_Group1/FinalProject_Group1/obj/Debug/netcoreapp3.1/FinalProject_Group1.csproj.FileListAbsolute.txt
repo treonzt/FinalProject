@@ -60,3 +60,14 @@ C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalPr
 C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalProject_Group1\FinalProject_Group1\obj\Debug\netcoreapp3.1\FinalProject_Group1.pdb
 C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalProject_Group1\FinalProject_Group1\obj\Debug\netcoreapp3.1\FinalProject_Group1.genruntimeconfig.cache
 C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalProject_Group1\FinalProject_Group1\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalProject_Group1\FinalProject_Group1\bin\Debug\netcoreapp3.1\Namotion.Reflection.dll
+C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalProject_Group1\FinalProject_Group1\bin\Debug\netcoreapp3.1\NJsonSchema.dll
+C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalProject_Group1\FinalProject_Group1\bin\Debug\netcoreapp3.1\NJsonSchema.Yaml.dll
+C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalProject_Group1\FinalProject_Group1\bin\Debug\netcoreapp3.1\NSwag.Annotations.dll
+C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalProject_Group1\FinalProject_Group1\bin\Debug\netcoreapp3.1\NSwag.AspNetCore.dll
+C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalProject_Group1\FinalProject_Group1\bin\Debug\netcoreapp3.1\NSwag.Core.dll
+C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalProject_Group1\FinalProject_Group1\bin\Debug\netcoreapp3.1\NSwag.Core.Yaml.dll
+C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalProject_Group1\FinalProject_Group1\bin\Debug\netcoreapp3.1\NSwag.Generation.dll
+C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalProject_Group1\FinalProject_Group1\bin\Debug\netcoreapp3.1\NSwag.Generation.AspNetCore.dll
+C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalProject_Group1\FinalProject_Group1\bin\Debug\netcoreapp3.1\YamlDotNet.dll
+C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalProject_Group1\FinalProject_Group1\obj\Debug\netcoreapp3.1\FinalProject_Group1.MvcApplicationPartsAssemblyInfo.cs

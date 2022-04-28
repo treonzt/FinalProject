@@ -12,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using FinalProject_Group1.Interfaces;
 
 namespace FinalProject_Group1
 {
@@ -28,8 +29,10 @@ namespace FinalProject_Group1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddSwaggerDocument();
             services.AddDbContext<TeamInfoContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("TeamInfoContext")));
+            services.AddScoped<ITeamInfoContextDAO, TeamInfoContextDAO>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,7 +42,8 @@ namespace FinalProject_Group1
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            app.UseOpenApi();
+            app.UseSwaggerUi3();
             context.Database.Migrate();
 
             app.UseRouting();

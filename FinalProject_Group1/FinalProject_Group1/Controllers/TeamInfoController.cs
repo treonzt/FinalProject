@@ -1,4 +1,5 @@
 ﻿using FinalProject_Group1.Data;
+using FinalProject_Group1.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -14,8 +15,10 @@ namespace FinalProject_Group1.Controllers
     {
        
         private readonly ILogger<TeamInfoController> _logger;
-        private readonly TeamInfoContext _context;
-        public TeamInfoController(ILogger<TeamInfoController> logger, TeamInfoContext context)
+        //private readonly TeamInfoContext _context;
+        private readonly ITeamInfoContextDAO _context;
+
+        public TeamInfoController(ILogger<TeamInfoController> logger, ITeamInfoContextDAO context)
         {
             _logger = logger;
             _context = context;
@@ -24,7 +27,7 @@ namespace FinalProject_Group1.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok(_context.TeamInfo.ToList());
+            return Ok(_context.GetAllTeamInfos());
         }
     }
 }
