@@ -19,5 +19,10 @@ namespace FinalProject_Group1.Data
         {
             return _context.TeamInfo.ToList();
         }
+
+        public object GetTeamByID(int id)
+        {
+            return _context.TeamInfo.Where(x => x.Id.Equals(id)).FirstOrDefault();
+        }
     }
 }

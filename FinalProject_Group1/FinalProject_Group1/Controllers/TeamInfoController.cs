@@ -29,5 +29,16 @@ namespace FinalProject_Group1.Controllers
         {
             return Ok(_context.GetAllTeamInfos());
         }
+
+        [HttpGet("id")]
+        public IActionResult Get(int id)
+        {
+            var team = _context.GetTeamByID(id);
+            if (team == null)
+            {
+                return NotFound(id);
+            }
+            return Ok(team);
+        }
     }
 }

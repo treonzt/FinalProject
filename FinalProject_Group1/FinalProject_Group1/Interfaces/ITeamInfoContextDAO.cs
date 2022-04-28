@@ -9,5 +9,6 @@ namespace FinalProject_Group1.Interfaces
     public interface ITeamInfoContextDAO
     {
         List<TeamInfo> GetAllTeamInfos();
+        object GetTeamByID(int id);
     }
 }
