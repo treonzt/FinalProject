@@ -71,3 +71,12 @@ C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalPr
 C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalProject_Group1\FinalProject_Group1\bin\Debug\netcoreapp3.1\NSwag.Generation.AspNetCore.dll
 C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalProject_Group1\FinalProject_Group1\bin\Debug\netcoreapp3.1\YamlDotNet.dll
 C:\Users\user\Desktop\dktop\Lectures\Contemp Prog\final_git\FinalProject\FinalProject_Group1\FinalProject_Group1\obj\Debug\netcoreapp3.1\FinalProject_Group1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\avery\trythis\FinalProject_Group1\FinalProject_Group1\obj\Debug\netcoreapp3.1\FinalProject_Group1.csproj.AssemblyReference.cache
+C:\Users\avery\trythis\FinalProject_Group1\FinalProject_Group1\obj\Debug\netcoreapp3.1\FinalProject_Group1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\avery\trythis\FinalProject_Group1\FinalProject_Group1\obj\Debug\netcoreapp3.1\FinalProject_Group1.AssemblyInfoInputs.cache
+C:\Users\avery\trythis\FinalProject_Group1\FinalProject_Group1\obj\Debug\netcoreapp3.1\FinalProject_Group1.AssemblyInfo.cs
+C:\Users\avery\trythis\FinalProject_Group1\FinalProject_Group1\obj\Debug\netcoreapp3.1\FinalProject_Group1.csproj.CoreCompileInputs.cache
+C:\Users\avery\trythis\FinalProject_Group1\FinalProject_Group1\obj\Debug\netcoreapp3.1\FinalProject_Group1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\avery\trythis\FinalProject_Group1\FinalProject_Group1\obj\Debug\netcoreapp3.1\FinalProject_Group1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\avery\trythis\FinalProject_Group1\FinalProject_Group1\obj\Debug\netcoreapp3.1\FinalProject_Group1.dll
+C:\Users\avery\trythis\FinalProject_Group1\FinalProject_Group1\obj\Debug\netcoreapp3.1\FinalProject_Group1.pdb

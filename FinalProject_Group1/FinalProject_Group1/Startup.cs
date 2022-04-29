@@ -36,7 +36,7 @@ namespace FinalProject_Group1
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, TeamInfoContext context)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, TeamInfoContext context, TeamInfoContext3 context3)
         {
             if (env.IsDevelopment())
             {
@@ -45,6 +45,7 @@ namespace FinalProject_Group1
             app.UseOpenApi();
             app.UseSwaggerUi3();
             context.Database.Migrate();
+            context3.Database.Migrate();
 
             app.UseRouting();
 
