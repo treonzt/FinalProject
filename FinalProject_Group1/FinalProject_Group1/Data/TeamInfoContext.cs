@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace FinalProject_Group1.Data
 {
+    // @author: Ishani Saxena
     public class TeamInfoContext :DbContext
     {
         public TeamInfoContext(DbContextOptions<TeamInfoContext> options) : base(options) { }
