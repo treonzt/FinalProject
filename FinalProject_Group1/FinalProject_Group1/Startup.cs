@@ -33,6 +33,9 @@ namespace FinalProject_Group1
             services.AddDbContext<TeamInfoContext>(options =>
             options.UseSqlServer(Configuration.GetConnectionString("TeamInfoContext")));
             services.AddScoped<ITeamInfoContextDAO, TeamInfoContextDAO>();
+            services.AddDbContext<FavoriteFoodsContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("FavoriteFoodsContext")));
+            services.AddScoped<IFavoriteFoodsContextDAO, FavoriteFoodsContextDAO>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
