@@ -1,5 +1,4 @@
-﻿using FinalProject_Group1.Models;
-using FinalProject_Group1.Models3;
+﻿using FinalProject_Group1.Models3;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
