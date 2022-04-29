@@ -1,7 +1,7 @@
-﻿using FinalProject_Group1.Data;
-using FinalProject_Group1.Data2;
-using FinalProject_Group1.Interfaces2;
-using FinalProject_Group1.Models2;
+﻿
+using FinalProject_Group1.Data;
+using FinalProject_Group1.Data3;
+using FinalProject_Group1.Interfaces3;
 using FinalProject_Group1.Models3;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using static FinalProject_Group1.Interfaces3.ITeamInfoContextDao3;
 
-namespace FinalProject_Group1.Data2
+namespace FinalProject_Group1.Data3
 {
     //author: avery ingram
     public class TeamInfoContextDAO3 : ITeamInfoContextDAO3
@@ -74,9 +74,9 @@ namespace FinalProject_Group1.Data2
         }
 
         //author: avery ingram
-        public int? Add(TeamInfo2 team3)
+        public int? Add(TeamInfo3 team3)
         {
-            var getTeam = _context3.TeamInfo3.Where(x => x.fullName.Equals(team3.fullName) && x.favoriteSport.Equals(team3.fa)).FirstOrDefault();
+            var getTeam = _context3.TeamInfo3.Where(x => x.fullName.Equals(team3.fullName) && x.favoriteSport.Equals(team3.favoriteSport)).FirstOrDefault();
             if (getTeam != null)
             {
                 return null;
@@ -94,109 +94,5 @@ namespace FinalProject_Group1.Data2
             }
         }
 
-        List<TeamInfo3> ITeamInfoContextDAO3.GetAllTeamInfos()
-        {
-            throw new NotImplementedException();
-        }
-
-        TeamInfo3 ITeamInfoContextDAO3.GetTeamByID(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public int? UpdateTeam(TeamInfo3 team)
-        {
-            throw new NotImplementedException();
-        }
-
-        public int? Add(TeamInfo3 team)
-        {
-            throw new NotImplementedException();
-        }
-
-        List<TeamInfo3> ITeamInfoContextDAO3.GetAllTeamInfos()
-        {
-            throw new NotImplementedException();
-        }
-
-        TeamInfo3 ITeamInfoContextDAO3.GetTeamByID(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public int? UpdateTeam(TeamInfo3 team)
-        {
-            throw new NotImplementedException();
-        }
-
-        public int? Add(TeamInfo3 team)
-        {
-            throw new NotImplementedException();
-        }
-
-        List<TeamInfo3> ITeamInfoContextDAO3.GetAllTeamInfos()
-        {
-            throw new NotImplementedException();
-        }
-
-        TeamInfo3 ITeamInfoContextDAO3.GetTeamByID(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        int? ITeamInfoContextDAO3.RemoveTeamById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        int? ITeamInfoContextDAO3.UpdateTeam(TeamInfo3 team)
-        {
-            throw new NotImplementedException();
-        }
-
-        int? ITeamInfoContextDAO3.Add(TeamInfo3 team)
-        {
-            throw new NotImplementedException();
-        }
-
-        List<TeamInfo3> ITeamInfoContextDAO3.GetAllTeamInfos()
-        {
-            throw new NotImplementedException();
-        }
-
-        TeamInfo3 ITeamInfoContextDAO3.GetTeamByID(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        int? ITeamInfoContextDAO3.UpdateTeam(TeamInfo3 team)
-        {
-            throw new NotImplementedException();
-        }
-
-        int? ITeamInfoContextDAO3.Add(TeamInfo3 team)
-        {
-            throw new NotImplementedException();
-        }
-
-        List<TeamInfo3> ITeamInfoContextDAO3.GetAllTeamInfos()
-        {
-            throw new NotImplementedException();
-        }
-
-        TeamInfo3 ITeamInfoContextDAO3.GetTeamByID(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public int? UpdateTeam(TeamInfo3 team)
-        {
-            throw new NotImplementedException();
-        }
-
-        public int? Add(TeamInfo3 team)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
